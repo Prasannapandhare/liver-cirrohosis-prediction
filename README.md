@@ -16,3 +16,16 @@
 ---
 
 ### GUI
+* **LCP**
+![LCP](https://github.com/Prasannapandhare/ML_LCP/blob/main/GUI/LCP.png)
+
+* **LCP | Home**
+![LCP | Home](https://github.com/Prasannapandhare/ML_LCP/blob/main/GUI/LCP%20Home.png)
+
+* **LCP | Result**
+![LCP | Result](https://github.com/Prasannapandhare/ML_LCP/blob/main/GUI/LCP%20Result.png)
+
+---
+
+### Contact
+For questions, suggestions, or feedback, you can contact me at [prasannapandhare20160@gmail.com].
