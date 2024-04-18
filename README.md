@@ -28,4 +28,8 @@
 ---
 
 ### Contact
-For questions, suggestions, or feedback, you can contact me at [prasannapandhare20160@gmail.com].
+For questions, suggestions, or feedback, you can contact me at prasannapandhare20160@gmail.com
+
+--- 
+
+##### Thank you, feel free to leave suggestions / edits
