@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style_result.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleResult.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.svg') }}" type="image/x-icon">
+    <title>LCP | Result</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <p>The model predicts: {{ result }}</p>
+    </div>
+
+    <!-- <footer class="footer">
+        <p>&copy; 2024 LCP. All rights reserved.</p>
+    </footer> -->
+
+</body>
+
+</html>

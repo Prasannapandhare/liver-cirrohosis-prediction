@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.svg') }}" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/styleHome.css">
+    <title>LCP</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="head_content">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" class="image">
+            <h1 class="title">LCP</h1>
+        </div>
+        <nav class="nav-buttons">
+            <a href="/home" class="button">Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Liver Cirrhosis Prediction System</h1>
+        <div class="content">
+            <p class="justify">
+                The project revolves around crafting a user-friendly web interface and implementing a Random
+                Forest-based
+                machine learning algorithm for the detection of liver cirrhosis. The system will be designed to analyze
+                diverse clinical parameters and demographic data, utilizing Random Forest models to predict the
+                likelihood
+                of liver cirrhosis development. Leveraging a dataset comprising pertinent clinical information, the
+                algorithm will undergo meticulous training and optimization to ensure high accuracy and reliability. The
+                project will also encompass the development of an intuitive web interface, facilitating seamless
+                interaction
+                with the diagnostic system and enabling healthcare practitioners to input patient data, visualize
+                prediction
+                results, and generate comprehensive reports for clinical use.
+            </p>
+            <img src="{{ url_for('static', filename='images/liver_stage.jpg') }}">
+        </div>
+
+        <button><a href="/home">Get Started</a></button>
+
+        <h3>Contact Us</h3>
+        <address>
+            <p>Shreyas Mali | Prasanna Pandhare | Dipali Umekar</p>
+            <p>Phone: <a href="tel:7038846673">7038846673</a> | <a href="tel:9022245188">9022245188</a> | <a
+                    href="tel:9529793274">9529793274</a></p>
+            <p>Email: <a href="malishreyas0@gmail.com">malishreyas0@gmail.com</a> | <a
+                    href="prasannapandhare20160@gmail.com">prasannapandhare20160@gmail.com</a> | <a
+                    href="umekardipali@gmail.com">umekardipali@gmail.com</a></p>
+        </address>
+
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 LCP. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

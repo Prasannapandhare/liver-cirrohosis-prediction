@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleIndex.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.svg') }}" type="image/x-icon">
+    <title>LCP | Home</title>
+</head>
+
+<body>
+    <h1>Liver Disease Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+
+        <label for="tb">Total Bilirubin (TB):</label>
+        <input type="number" id="tb" name="tb" step="0.01" required><br>
+
+        <label for="db">Direct Bilirubin (DB):</label>
+        <input type="number" id="db" name="db" step="0.01" required><br>
+
+        <label for="alkphos">Alkaline Phosphotase (Alkphos):</label>
+        <input type="number" id="alkphos" name="alkphos" required><br>
+
+        <label for="sgpt">SGPT:</label>
+        <input type="number" id="sgpt" name="sgpt" required><br>
+
+        <label for="sgot">SGOT:</label>
+        <input type="number" id="sgot" name="sgot" required><br>
+
+        <label for="tp">Total Protein (TP):</label>
+        <input type="number" id="tp" name="tp" step="0.01" required><br>
+
+        <label for="alb">Albumin (ALB):</label>
+        <input type="number" id="alb" name="alb" step="0.01" required><br>
+
+        <label for="ag_ratio">A/G Ratio:</label>
+        <input type="number" id="ag_ratio" name="ag_ratio" step="0.01" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    <footer class="footer">
+        <p>&copy; 2024 LCP. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
